@@ -11,7 +11,7 @@
     ],
     "validationPeriod": 600000
   },
-  "ip-api": [
+  "ipApi": [
     "http://ip-api.com/json",
     "https://pro.ip-api.com/json/?key=ZKVwIrnJ8rQLxW2",
     "http://ip.ippooler.com:8080/home/GetInfo",
