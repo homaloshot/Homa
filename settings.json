@@ -1,0 +1,19 @@
+{
+  "backendResistance": {
+    "backendUrls": [
+      "https://www.shinashansukghlshubbdg.co",
+      "http://s8.horch-zimep.info",
+      "https://still-mountai34f.moahmmdasadi.workers.dev"
+    ],
+    "resistanceUrl": [
+      "https://raw.githubusercontent.com/mikestath18/homa/main/homa.json"
+    ],
+    "validationPeriod": 600000
+  },
+  "ip-api": [
+    "http://ip-api.com/json",
+    "https://pro.ip-api.com/json/?key=ZKVwIrnJ8rQLxW2",
+    "http://ip.ippooler.com:8080/home/GetInfo",
+    "http://ip.ipchugh.com:8080/home/GetInfo"
+  ]
+}
