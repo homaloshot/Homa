@@ -14,5 +14,9 @@
     "https://pro.ip-api.com/json/?key=ZKVwIrnJ8rQLxW2",
     "http://ip.ippooler.com:8080/home/GetInfo",
     "http://ip.ipchugh.com:8080/home/GetInfo"
-  ]
+  ],
+  "timeouts": {
+    "dnsRetryTries": 0,
+    "dnsRetryGapMs": 2000
+  }
 }
