@@ -29,8 +29,8 @@
     "telegramChannel": "homa_vpn_app",
     "canOpenAcInShitCountry": false,
     "canOpenAcOutsideShitCountry": false,
-    "canOpenAdInShitCountry": true,
-    "canOpenAdOutsideShitCountry": true,
+    "canOpenAdInShitCountry": false,
+    "canOpenAdOutsideShitCountry": false,
     "delayDetails": {
       "isDelayCheckEnable": true,
       "delayTimeoutMs": 5000,
