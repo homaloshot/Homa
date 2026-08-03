@@ -16,12 +16,43 @@
     "http://ip.ipchugh.com:8080/home/GetInfo"
   ],
   "appSettings": {
+    "apiCallMs": 3000,
+    "apiBatchDeadlineMs": 4000,
+    "getServersCallMs": 10000,
     "dnsRetryTries": 7,
     "dnsRetryGapMs": 2000,
+    "vpnDisconnectPollMs": 200,
+    "vpnDisconnectTimeoutMs": 6000,
+    "vpnPermissionAskDelayMs": 500,
+    "gdprMs": 10000,
     "goToAppAsap": true,
+    "telegramChannel": "homa_vpn_app",
     "canOpenAcInShitCountry": true,
     "canOpenAcOutsideShitCountry": true,
     "canOpenAdInShitCountry": true,
-    "canOpenAdOutsideShitCountry": true
+    "canOpenAdOutsideShitCountry": true,
+    "delayDetails": {
+      "isDelayCheckEnable": true,
+      "delayTimeoutMs": 5000,
+      "delayConcurrentCount": 4,
+      "isTrafficCheckEnable": true,
+      "trafficCheckTimeoutMs": 5000,
+      "trafficCheckTryCount": 1,
+      "trafficCheckStartDelayMs": 1000,
+      "connectedSettleDelayMs": 1000,
+      "isReportWhenAllDeadEnable": true,
+      "allDeadRecheckCount": 2,
+      "allDeadRecheckWaitMs": 1000,
+      "isAdServerDelayCheckEnable": true,
+      "adServerDelayTimeoutMs": 5000,
+      "adServerDelayConcurrentCount": 4,
+      "isAdServerTrafficCheckEnable": true,
+      "adServerTrafficCheckTimeoutMs": 5000,
+      "adServerTrafficCheckTryCount": 1,
+      "adServerTrafficCheckStartDelayMs": 1500,
+      "isReportWhenAdServerAllDeadEnable": true,
+      "adServerAllDeadRecheckCount": 2,
+      "adServerAllDeadRecheckWaitMs": 1000
+    }
   }
 }
