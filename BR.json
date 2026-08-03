@@ -15,8 +15,13 @@
     "http://ip.ippooler.com:8080/home/GetInfo",
     "http://ip.ipchugh.com:8080/home/GetInfo"
   ],
-  "timeouts": {
+  "appSettings": {
     "dnsRetryTries": 7,
-    "dnsRetryGapMs": 2000
+    "dnsRetryGapMs": 2000,
+    "goToAppAsap": true,
+    "canOpenAcInShitCountry": true,
+    "canOpenAcOutsideShitCountry": true,
+    "canOpenAdInShitCountry": true,
+    "canOpenAdOutsideShitCountry": true
   }
 }
