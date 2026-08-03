@@ -27,9 +27,9 @@
     "gdprMs": 10000,
     "goToAppAsap": true,
     "telegramChannel": "homa_vpn_app",
-    "canOpenAcInShitCountry": false,
+    "canOpenAcInShitCountry": true,
     "canOpenAcOutsideShitCountry": true,
-    "canOpenAdInShitCountry": false,
+    "canOpenAdInShitCountry": true,
     "canOpenAdOutsideShitCountry": true,
     "delayDetails": {
       "isDelayCheckEnable": true,
